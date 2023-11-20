@@ -13,10 +13,10 @@ This is a Java program which:
 ## Getting Started
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/lauracrook/gremlin.git
 2. Navigate to the project directory:
    ```bash
-   cd src/main/java/org/gremlin
+   cd gremlin
 3. Build the project
    ```bash
    ./gradlew build
