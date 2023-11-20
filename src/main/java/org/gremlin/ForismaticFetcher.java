@@ -44,7 +44,6 @@ public class ForismaticFetcher implements QuoteFetcher {
                 }
 
                 reader.close();
-System.out.println(responseCode + " " + response.toString());
                 JSONObject jsonResponse = new JSONObject(response.toString());
 
                 String quote = jsonResponse.getString("quoteText");

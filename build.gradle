@@ -13,6 +13,8 @@ dependencies {
     testImplementation group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.10.1'
     // Mockito for mocking
     testImplementation group: 'org.mockito', name: 'mockito-core', version: '3.12.4'
+
+    testRuntimeOnly group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.10.1'
 }
 
 //application {

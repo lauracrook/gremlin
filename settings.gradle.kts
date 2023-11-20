@@ -6,3 +6,4 @@
  */
 
 rootProject.name = "gremlin"
+include("src.main.java.org.gremlin")
