@@ -1,22 +1,19 @@
 package org.gremlin;
 
-import org.junit.Before;
 import org.junit.Test;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.net.HttpURLConnection;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
 public class ForismaticQuoteFetcherTest {
-
     private ForismaticFetcher forismaticFetcher;
     private HttpURLConnection mockConnection;
 
-    @Before
     public void setUp() {
         forismaticFetcher = new ForismaticFetcher();
         // Create a mock implementation of HttpURLConnection to simulate API response
@@ -46,4 +43,5 @@ public class ForismaticQuoteFetcherTest {
 
         assertEquals("Failed to fetch quote. HTTP error code: 400", result);
     }
+
 }
